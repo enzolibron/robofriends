@@ -4,11 +4,12 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import  "tachyons";
 import App from './App';
+import Numbers from './Numbers';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Fragment>
-    <App />
+    <Numbers />
   </Fragment>
 
 );
